@@ -2,6 +2,7 @@
 
 npm install yargs cron body-parser express shoe -S
 
+npm install redis -S
 
 
 ----------------------------------------------------------------------------------

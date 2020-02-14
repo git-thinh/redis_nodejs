@@ -7,13 +7,13 @@ client.on('error', function (err) {
 
 let setSize = 20;
 
-//client.sadd(1, "member1");
-//client.sadd(2, "member2");
+client.sadd(1, "member1");
+client.sadd(2, "member2");
 
-//while (setSize > 0) {
-//    client.hmset("ids", setSize, setSize % 2 == 0);
-//    setSize -= 1;
-//}
+while (setSize > 0) {
+    client.hmset("ids", setSize, setSize % 2 == 0);
+    setSize -= 1;
+}
 
 //client.hmset("key", "foo", "bar", "hello", "world");
 
